@@ -2,7 +2,9 @@
 Compose for run zeegby2mqtt with local broker also running on docker
 
 Used CC2531 stick with coordinator FW from https://github.com/Koenkk/Z-Stack-firmware
-If You already have bootloader on Your chip, You can re-flash it using USB without wiring and making debugger tools.   
+If You already have bootloader on Your chip, You can re-flash it using USB without wiring and making debugger tools.
+
+SerialBootTool USB flasher: https://web.archive.org/web/20210114224158if_/https://processors.wiki.ti.com/images/6/64/SerialBootTool_1_3_2.zip  
 
 Using it on windows need to solve some quests with accessing to connected USB device from docker.
 Usbipd tool will help with it. You need to install it on host (windows) and on wsl.
