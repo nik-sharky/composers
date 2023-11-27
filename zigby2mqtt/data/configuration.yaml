@@ -1,0 +1,36 @@
+homeassistant: false
+frontend: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: mqtt://mosquitto:1883
+serial:
+  port: /dev/ttyACM0
+advanced:
+  network_key:
+    - 14
+    - 189
+    - 109
+    - 143
+    - 145
+    - 252
+    - 173
+    - 135
+    - 205
+    - 137
+    - 94
+    - 63
+    - 65
+    - 136
+    - 33
+    - 44
+  pan_id: 11663
+  ext_pan_id:
+    - 94
+    - 177
+    - 141
+    - 223
+    - 59
+    - 175
+    - 156
+    - 144
+permit_join: true
